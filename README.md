@@ -24,25 +24,28 @@ See "Formating the device" below to return to this state or load the demo on a n
 
 ## Prerequisites
 
+The following dependencies are required before launching Device Simulator Express:
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Node](https://nodejs.org/en/download/)
 * [Python 3.7.4](https://www.python.org/downloads/)
   * Make sure python and pip are added to the PATH environment variables. To check whether Python has been added, type *python* in a terminal. Version 3.7.4 should print out. 
   * If installing Python, select the "Add to PATH" option to add directly on install.
   * If Python is already installed but not not a PATH variable, search for instructions given your OS.
-* [Device Simulator Express extension] (https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress)
+  
+Install the Device Simulator Extension:
+* [Device Simulator Express extension](https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress)
 * [Python VS Code extension extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   * This will be automatically installed with Device Simulator Express
 
-Win 32
-Type the following commands in a console:
-* **Pywin 32**: `pip install pywin32`
-
-The following depenencies can be installed by the Device simulator Express extension by clicking yes when prompted or by typing the commands in a console:
+The following Python depenencies will be installed by the Device Simulator Express extension on first use by clicking yes when prompted or install manually by typing the commands in a console:
 * **Playsound**: `pip install playsound`
 * **Python-Socketio**: `pip install python-socketio`
 * **Reuqests**: `pip install requests`
 * **Application Insights**: `pip install applicationinsights`
+
+If using Windows, install this additional Python dependency. It will not automatically install with the extension:
+Type the following commands in a console:
+* **Pywin 32**: `pip install pywin32`
 
 ## Setup and running the sample
 CircuitPython code can run with either the simulator in VS Code or be deployed to the device.
