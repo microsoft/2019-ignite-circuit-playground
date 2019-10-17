@@ -4,7 +4,11 @@ This sample demonstrates the basic functionality of the Circuit Playground Expre
 
 The Circuit Playground Express is brought to you by Adafruit. It's pre-loaded with CircuitPython! CircuitPython is Adafruit's branch of MicroPython, designed to simplify experimentation and education on low-cost microcontrollers. It makes it easier than ever to get prototyping with Visual Studio Code.
 
+![Circuit Playground Express with lights on](https://github.com/microsoft/2019-ignite-circuit-playground/blob/master/Circuit_Playground_Express.jpg)
+
 The Device Simulator Express extension for VS Code, a Microsoft Garage project, allows you to code in CircuitPython for CPX projects. Test and debug your code on the device simulator and see the same result when you plug in your actual microcontroller. Observe the output of the device with the serial monitor.
+
+![Device Simulator Express new file side by side with simulator](https://github.com/microsoft/2019-ignite-circuit-playground/blob/master/Device-Simulator-Express-Screenshot.jpg)
 
 ## What's on the device
 
