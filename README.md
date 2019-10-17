@@ -81,7 +81,7 @@ If you acquired the device elsewhere follow these tutorials for formatting:
 
 If you'd like to return to the initial Ignite state, download the files from `initial_board`.
 
-Note: Name your file  code.py: the device automatically runs the first file that is likely named.
+*Note: Name your file  "code.py". The device automatically runs the "code.py" file.*
 
 ## Useful links
 Visit the CPX product page for more info on the device: https://adafruit.com/product/3333. To get started with CircuitPython, which comes built into the CPX, visit: https://learn.adafruit.com/welcome-to-circuitpython.
