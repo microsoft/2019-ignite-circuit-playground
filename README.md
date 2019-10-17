@@ -55,7 +55,7 @@ After installing the prerequisites and the Device Simulator Express extension, r
 1. Start with a new file or open an sample. Create a new file with the "New File" command. `CTRL+SHIFT+P` to open the command palette and type `Device Simulator Express: New File`. Alternatively, open an existing file .py or sample.
 2. Run the code on the simulator. Run `Device Simulator Express: Run Simulator` from the command palette or the play icon in the editor toolbar.
  
- For a detailed and visual walkthrough visit the Device Simulator Express home page in the Visual Studio Marketplace: (https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress).
+ For a detailed and visual walkthrough visit the Device Simulator Express home page in the Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress.
  
 ### Device - deploy and run code on the Circuit Playground Express
 Deploying code to the device
