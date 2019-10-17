@@ -1,24 +1,36 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
----
+# Welcome to CircuitPython and the Circuit Playground Express
 
-# Official Microsoft Sample
+This sample demonstrates the basic functionality of the Circuit Playground Express (CPX) and the Visual Studio Device Simulator Express extension.
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+## Getting started
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+Visit the CPX product page for more info on the device: https://adafruit.com/product/3333. To get started with CircuitPython, which comes built into the CPX, visit: https://learn.adafruit.com/welcome-to-circuitpython.
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
+## Prerequisites
 
-Give a short description for your sample here. What does it do and why is it important?
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Node](https://nodejs.org/en/download/)
+* [Python 3.7.4](https://www.python.org/downloads/)
+  * Make sure python and pip are added to the PATH environment variables. To check whether Python has been added, type *python* in a terminal. Version 3.7.4 should print out. 
+  * If installing Python, select the "Add to PATH" option to add directly on install.
+  * If Python is already installed but not not a PATH variable, search for instructions given your OS.
+* [Device Simulator Express extension] (https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress)
+* [Python VS Code extension extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  * This will be automatically installed with Device Simulator Express
+
+Win 32
+Type the following commands in a console:
+* **Pywin 32**: `pip install pywin32`
+
+The following depenencies can be installed by the Device simulator Express extension by clicking yes when prompted or by typing the commands in a console:
+* **Playsound**: `pip install playsound`
+* **Python-Socketio**: `pip install python-socketio`
+* **Reuqests**: `pip install requests`
+* **Application Insights**: `pip install applicationinsights`
+
+## Setup
+
+Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
 
 ## Contents
 
@@ -33,9 +45,7 @@ Outline the file contents of the repository. It helps users navigate the codebas
 | `README.md`       | This README file.                          |
 | `LICENSE`         | The license for the sample.                |
 
-## Prerequisites
 
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
 
 ## Setup
 
