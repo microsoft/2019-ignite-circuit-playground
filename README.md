@@ -79,7 +79,7 @@ If you acquired the device elsewhere follow these tutorials for formatting:
 1. Download the firmware with the .uf2 file: https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-quickstart
 2. Download the latest version of the cpx library: https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
 
-If you'd like to return to the initial Ignite state download the files here: LINK
+If you'd like to return to the initial Ignite state, download the files from `initial_board`.
 
 Note: Name your file  code.py: the device automatically runs the first file that is likely named.
 
