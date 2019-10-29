@@ -28,13 +28,13 @@ The following dependencies are required before launching Device Simulator Expres
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Node](https://nodejs.org/en/download/)
 * [Python 3.7.4](https://www.python.org/downloads/)
-  * Make sure python and pip are added to the PATH environment variables. To check whether Python has been added, type *python* in a terminal. Version 3.7.4 should print out. 
+  * Make sure Python and pip are added to the PATH environment variables. To check whether Python has been added, type *python* in a terminal. Version 3.7.4 should print out. 
   * If installing Python, select the "Add to PATH" option to add directly on install.
   * If Python is already installed but not not a PATH variable, search for instructions given your OS.
   
-Install the Device Simulator Extension:
+Install the Device Simulator Express extension:
 * [Device Simulator Express extension](https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress)
-* [Python VS Code extension extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [Python VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   * This will be automatically installed with Device Simulator Express
 
 The following Python depenencies will be installed by the Device Simulator Express extension on first use by clicking yes when prompted or install manually by typing the commands in a console:
@@ -55,17 +55,17 @@ After installing the prerequisites and the Device Simulator Express extension, r
 1. Start with a new file or open an sample. Create a new file with the "New File" command. `CTRL+SHIFT+P` to open the command palette and type `Device Simulator Express: New File`. Alternatively, open an existing file .py or sample.
 2. Run the code on the simulator. Run `Device Simulator Express: Run Simulator` from the command palette or the play icon in the editor toolbar.
  
- For a detailed and visual walkthrough visit the Device Simulator Express home page in the Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress.
+For a detailed and visual walkthrough visit the Device Simulator Express home page in the Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress.
  
 ### Device - deploy and run code on the Circuit Playground Express
-Deploying code to the device
+Deploy code to the device:
 1. Save the file as "code.py".
 2. Connect the device to the computer via USB. It should be recognized as a drive.
 3. Replace the "code.py" file on the device. In the command palette type `Device Simulator Express: Deploy to Device`. The CPX will reboot and run the code.
 
 If you want to work directly from the device, open the device as a folder in VS Code. Editing and saving the .py file will cause the device to reboot and run the code without the extra step of copying the file.
 
-Use the Serial Monitor to see sensor data from the CPX (available on Windows or Mac only)
+Use the Serial Monitor to see sensor data from the CPX (available on Windows or Mac only):
 1. Plug in the CPX.
 2. Run the command `Device Simulator Express: Open Serial Monitor`.
 3. Select the serial port and, if required, set baud rate.
@@ -75,7 +75,7 @@ Use the Serial Monitor to see sensor data from the CPX (available on Windows or 
 
 If you picked up the device from the Development and Architecture Center at Ignite and the device boots and animates with orange and white lights, you're good to go. Edit the code.py file.
 
-If you acquired the device elsewhere follow these tutorials for formatting: 
+If you acquired the device elsewhere, follow these tutorials for formatting: 
 1. Download the firmware with the .uf2 file: https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-quickstart
 2. Download the latest version of the cpx library: https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
 
