@@ -15,12 +15,12 @@ The Device Simulator Express extension for VS Code, a Microsoft Garage project, 
 The pre-loaded demo shows off some of what your Circuit Playground Express can do with CircuitPython:
 * The NeoPixel ring on the CPX animates with orange and white colors.
 * The switch controls the direction of the animation. Move the switch left and right to change the direction.
-* Press and hold the Button A to dim the lights and Button B to brighten.
-* Touch pads labeled A1-A7 to play a scale of tones. Change the `TONE_PIANO` variable to `False` at the top of the file to disable the tone piano.
-* After follow the extension, connect to the serial port to print temperature, light intensity, and acceleration sensor readings in the console. 
+* Press and hold Button A to dim the lights and Button B to brighten.
+* The touch pads labeled A1-A7 to play a scale of tones. Change the `TONE_PIANO` variable to `False` at the top of the file to disable the tone piano.
+* After installing the extension, connect to the serial port to print temperature, light intensity, and acceleration sensor readings in the console. 
 * Shake the device to pause the lights and sensor reporting. Shake again to restart.
 
-See "Formating the device" below to return to this state or load the demo on a non-Ignite CPX.
+See "Formatting the device" below to return to this state or load the demo on a non-Ignite CPX.
 
 ## Prerequisites
 
@@ -37,14 +37,14 @@ Install the Device Simulator Express extension:
 * [Python VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   * This will be automatically installed with Device Simulator Express
 
-The following Python depenencies will be installed by the Device Simulator Express extension on first use by clicking yes when prompted or install manually by typing the commands in a console:
+The following Python dependencies will be installed by the Device Simulator Express extension on first use by clicking yes when prompted. Alternatively, install manually by typing the following commands in a console:
 * **Playsound**: `pip install playsound`
 * **Python-Socketio**: `pip install python-socketio`
-* **Reuqests**: `pip install requests`
+* **Requests**: `pip install requests`
 * **Application Insights**: `pip install applicationinsights`
 
-If using Windows, install this additional Python dependency. It will not automatically install with the extension:
-Type the following commands in a console:
+If using Windows, install this additional Python dependency. It will not automatically install with the extension.
+Type the following command in a console:
 * **Pywin 32**: `pip install pywin32`
 
 ## Setup and running the sample
@@ -52,10 +52,10 @@ CircuitPython code can run with either the simulator in VS Code or be deployed t
 
 ### Simulator - using the Device Simulator Express Extension
 After installing the prerequisites and the Device Simulator Express extension, reload VS Code. To get started with the simulator:
-1. Start with a new file or open an sample. Create a new file with the "New File" command. `CTRL+SHIFT+P` to open the command palette and type `Device Simulator Express: New File`. Alternatively, open an existing file .py or sample.
+1. Start with a new file or open an sample. Create a new file with the "New File" command. `CTRL+SHIFT+P` to open the command palette and type `Device Simulator Express: New File`. Alternatively, open an existing .py file or sample.
 2. Run the code on the simulator. Run `Device Simulator Express: Run Simulator` from the command palette or the play icon in the editor toolbar.
  
-For a detailed and visual walkthrough visit the Device Simulator Express home page in the Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress.
+For a detailed and visual walkthrough, visit the Device Simulator Express home page in the Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress.
  
 ### Device - deploy and run code on the Circuit Playground Express
 Deploy code to the device:
