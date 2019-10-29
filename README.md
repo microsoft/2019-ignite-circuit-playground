@@ -98,8 +98,6 @@ The Device Simulator Express extension is an open source extension built by Micr
 
 ## Contents
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
-
 | File/folder       | Description                                |
 |-------------------|--------------------------------------------|
 | `initial_board`   | Sample source code from Ignite.            |
