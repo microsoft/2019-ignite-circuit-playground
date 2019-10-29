@@ -93,6 +93,9 @@ Visit the CPX product page for more info on the device: https://adafruit.com/pro
 
 * Device Simulator Express download and guide: https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress
 
+## About Device Simulator Express
+The Device Simulator Express extension is an open source extension built by Microsoft Garage interns. To learn more about the extension and contribute visit: (link - to be added).
+
 ## Contents
 
 Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
